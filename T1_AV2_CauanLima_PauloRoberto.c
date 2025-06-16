@@ -6,7 +6,7 @@
 void exibe_produtos(int vCod[], int vEstoque[], int tamanhoExibe){
     int i;
     for (i = 0; i < tamanhoExibe; i++){
-        printf("código: %d / estoque %d\n",vCod[i], vEstoque[i]);
+        printf("código::::: %d / estoque %d\n",vCod[i], vEstoque[i]);
     }
 }
 
